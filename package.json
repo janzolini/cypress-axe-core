@@ -1,0 +1,25 @@
+{
+  "name": "acessibilidade",
+  "version": "1.0.0",
+  "author": "Jonathan Teixeira Anzolini",
+  "license": "MIT",
+  "description": "Projeto de apresentação de conceitos de automação de testes de acessibilidade",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "npx cypress open",
+    "cypress:run": "npx cypress run"
+  },
+  "devDependencies": {
+    "cypress": "13.13.2",
+    "cypress-axe": "^1.5.0"
+  },
+  "keywords": [
+    "cypress",
+    "axe",
+    "a11y"
+  ],
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
